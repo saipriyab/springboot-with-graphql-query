@@ -1,0 +1,16 @@
+schema
+{
+query:Query
+}
+
+type Query {
+	findAllDevelopers: [Developer]
+}
+
+type Developer {
+	id: String
+	name: String
+	experience: Int
+}
+
+
